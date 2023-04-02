@@ -1,0 +1,67 @@
+code
+{
+	background: #424558;
+	color: #fff;
+	font-family: verdana;
+	font-size: 2rem;
+	border: 2px solid #060bfa;
+	display: block;
+	text-align: center;
+}
+
+
+section
+{
+	float: left;
+	width: 30%;
+	height: 800px;
+   border: 2px solid #060bfa;
+   border-radius: 6px;
+}
+
+
+header, section
+{
+	margin: 0 1.5% 24px 1.5%
+}
+
+footer
+{
+	clear: both;
+}
+
+.c1
+{
+	color: white;
+	font-size: 1.5rem
+}
+
+.c2
+{
+	color: black;
+	font-size: 1.5rem
+}
+
+.f1
+{
+	background-image: url(menuCarte.jpg);
+	background-size: 100% 100%;
+}
+
+.f2
+{
+	background-image: url(menuBoisson.jpg);
+	background-size: 100% 100%;
+}
+
+.f3
+{
+	background-image: url(menuDrive.jpg);
+	background-size: 100% 100%;
+}
+
+body
+{
+	background-image: url(fond.jpg);
+	background-size: 100% 100%
+}
