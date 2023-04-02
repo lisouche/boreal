@@ -1,0 +1,36 @@
+table
+{
+	border: 3px solid #6495ed;
+	background-color: #D0e3f1;
+	width: 60%;
+	margin: auto;
+}
+
+tr
+{
+	font-family: arial;
+	font-size: 1.2rem;
+	background-size: 100% 100%;
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+td
+{
+	font-family: arial;
+	font-size: 0.80rem;
+	border: 1px solid #000000;
+	padding: 5px;
+	text-align: center;
+}
+
+body
+{
+	background-image:url(fond.jpg);
+}
+
+h1
+{
+	color: #fff;
+}
+

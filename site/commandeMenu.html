@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="commandeMenu.css">
+</head>
+<body background="fond.jpg"><center>
+	<h2>Bonjour ou bonsoir, bienvenue au drive ! Veuillez choisir ce qui vous fera plaisir ^_^ </h2>
+<form method="post" action="commandeMenu.php"><br>
+<table border="2">
+	<tr>
+		<td><b>Burgers</b></td>
+		<td><input type="radio" name="choixBurger" value="Burger poulet">Poulet</td>
+		<td><input type="radio" name="choixBurger" value="Burger bacon"> Bacon</td>
+		<td><input type="radio" name="choixBurger" value="Burger poisson">Poisson</td>
+		<td><input type="radio" name="choixBurger" value="Burger viande">Viande</td>
+	</tr>
+	<tr>
+		<td><b>Frites</b></td>
+		<td><input type="radio" name="choixFrite" value="petite"> Petite</td>
+		<td><input type="radio" name="choixFrite" value="Moyenne">Moyenne</td>
+		<td><input type="radio" name="choixFrite" value="Grande">Grande</td>
+	</tr>
+	<tr>
+		<td><b>Panninis</b></td>
+		<td><input type="radio" name="choixPannini" value="Pannini 3fromages">3 fromages</td>
+		<td><input type="radio" name="choixPannini" value="Pannini classique">Classique</td>
+		<td><input type="radio" name="choixPannini" value="Pannini poulet">Poulet</td>
+		<td><input type="radio" name="choixPannini" value="Pannini saumon"> Saumon</td>
+		<td><input type="radio" name="choixPannini" value="Pannini chevre miel">Chèvre miel</td>
+	</tr>
+	<tr>
+		<td><b>Wraps</b></td>
+		<td><input type="radio" name="choixWrap" value="Wrap mexicain">Mexican</td>
+		<td><input type="radio" name="choixWrap" value="Wrap poulet curry">Poulet curry</td>
+		<td><input type="radio" name="choixWrap" value="Wrap saumon">Saumon</td>
+	</tr>
+	<tr>
+		<td><b>Boissons</b></td>
+		<td><input type="radio" name="choixBoisson" value="Eau petillante">Eau petillante</td>
+		<td><input type="radio" name="choixBoisson" value="Eau">Eau</td>
+		<td><input type="radio" name="choixBoisson" value="Vin chaud">Vin chaud</td>
+		<td><input type="radio" name="choixBoisson" value="jus d'orange">Jus d'orange</td>
+		<td><input type="radio" name="choixBoisson" value="jus de raisin">Jus de raisin</td>
+		<td><input type="radio" name="choixBoisson" value="coca-cola">coca-cola</td>
+		<td><input type="radio" name="choixBoisson" value="sprite">Sprite</td>
+		<td><input type="radio" name="choixBoisson" value="fanta">Fanta</td>
+		<td><input type="radio" name="choixBoisson" value="Jus de pomme">Jus de pomme</td>
+	</tr>
+	<tr>
+		<td><b>Formules</b></td>
+		<td><input type="radio" name="choixFormule" value="Formule 1">1 sandwich + 1 boisson</td>
+		<td><input type="radio" name="choixFormule" value="Formule 2">2 sandwichs + 2 boissons </td>
+		<td><input type="radio" name="choixFormule" value="Formule 3">2 sandwichs</td>
+	</tr>
+</table>
+<br>
+Entrez le date de votre commande  <input type="date" name="dateJour"> <br> <br>
+<input type="reset" value="Annuler">
+<input type="submit" value="Valider"></center>
+</form>
+</body>
+</html>

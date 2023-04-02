@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="reservationChambre.css">
+</head>
+<body><center>
+	
+		<h1>Veuillez remplir ce formulaire pour réserver une ou plusieurs chambre(s)</h1><br></center>
+<form method="post" action="reservationChambre.php">
+<table >
+	<tr>
+		<td>Votre nom :</td>
+		<td><input type="text" name="nom"></td>
+	</tr>
+	<tr>
+
+		<td>Nombre de personne :</td>
+		<td> <input type="number" max="10" min="1" name="nombrePersonne"></td>
+	</tr>
+	<tr>
+		<td>Nombre de chambre :</td>
+		<td> <input type="number" max="10" min="1" name="nombreChambre"></td>
+	</tr>
+	<tr>
+		<td><label for="placeLits">Choix du lit :</label></td>
+		<td><select name="placeLits" id="placeLits">
+	<option>Un lit simple</option>
+	<option>Un lit double</option>
+	<option>Deux lit simple</option>
+	<option>Deux lit double</option>
+	<option>Trois lit simple</option>
+</select></td>
+	</tr>
+	<tr>
+		<td>Date d'arrivée :</td>
+		<td> <input type="Date" name="dateDebut"></td>
+	</tr>
+	<tr>
+		<td>Date de départ :</td>
+		<td><input type="date" name="dateFin"></td>
+	</tr>
+	<tr>
+		<td><label for="montant">Budget :</label></td>
+		<td><select name="montant" id="montant">
+	<option>Entre 50e et 70e</option>
+	<option>Entre 70e et 100e</option>
+	<option>Entre 100e et 150e</option>
+	<option>Plus de 150e</option>
+</select></td>
+	</tr>
+	<tr>
+		<td>Animaux compris:</td>
+		<td><input type="radio" name="choix" value="oui" checked>oui <br> 
+		<input type="radio" name="choix" value="non">non</td>
+	</tr>
+</table><br><br>
+	<center>
+		<input type="reset" value="Annuler" >
+		<input type="submit" value="Valider" >
+	</center>
+		
+</form>
+</body>
+</html>

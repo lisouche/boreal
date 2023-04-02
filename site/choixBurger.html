@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="choixBurger.css">
+
+</head>
+<body background="fond.jpg"><center>
+	<h2>Bonjour, choississez Votre burger</h2>
+ <form method="post" action="choixBurger.php"><br>
+<table border="2" >
+	<tr>
+		<td><b>Les burgers</b></td>
+		<td><input type="radio" name="choixBurger" value="Burger poulet">Poulet</td>
+		<td><input type="radio" name="choixBurger" value="Burger bacon"> Bacon</td>
+		<td><input type="radio" name="choixBurger" value="Burger poisson">Poisson</td>
+		<td><input type="radio" name="choixBurger" value="Burger viande">Viande</td>
+	</tr>
+</table>
+<br>
+Entrez votre nom <input type="text" name="nom"> <br> <br>
+Entrez le date de votre commande  <input type="date" name="dateJour"> <br> <br>
+Entrez la quantité que vous voulez: <input type="number" min="1" max="10" name="quantite"> <br><br>
+<input type="reset" value="Annuler">
+<input type="submit" value="Valider"></center>
+
+</form>
+</body>
+</html>
